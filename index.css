@@ -2,12 +2,53 @@ div
 {
     text-align: center;
 }
+
 img
 {
     padding: 10px;
 }
+
+body
+{
+    background-color: #EBE9E9;
+}
+
 .info, .info1, .info2
 {
     width: 200px;
-    float: left;
+    position: absolute;
+    top: 50%;
+}
+
+.info
+{
+    position:absolute;
+    left: 30%;
+    top: 65%;
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+.info1
+{
+    position:absolute;
+    left: 50%;
+    top: 65%;
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: -100px;
+}
+
+.info2
+{
+    position:absolute;
+    left: 70%;
+    top: 65%;
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: -100px;
 }
