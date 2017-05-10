@@ -1,0 +1,13 @@
+div
+{
+    text-align: center;
+}
+img
+{
+    padding: 10px;
+}
+.info, .info1, .info2
+{
+    width: 200px;
+    float: left;
+}

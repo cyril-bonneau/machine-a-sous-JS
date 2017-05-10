@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Machine à sous</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        
+    </head>
+
+    <body>
+
+        <div>
+            <h2>Machine à sous :</h2>
+            <p>Cliquez sur "GO !" pour tenter votre chance</p>
+            <br>
+            <button onclick="machineASous();" id="jouer">GO !</button><br>
+            <button onclick="window.location.reload()" id="rejouer" disabled="disabled">Rejouer ? </button><br>
+            <br>
+            
+            <img id="img_1" src="img/img_1.png"><img id="img_2" src="img/img_2.png"><img id="img_3" src="img/img_3.png"><img id="img_4" src="img/img_4.png"><br>
+        
+            <br>
+            <div class="info">
+            <p>Il vous reste </p><input id="monnaie" type="text" value="20" disabled="disabled">
+            </div>
+            <br>
+            <br>
+            <div class="info1">
+            <p>Nombre de tentatives</p><input id="tentative" type="text" value="0" disabled="disabled">
+            </div>
+            <br>
+            <br>
+            <div class="info2">
+            <p>Votre highscore est de :</p><input id="highscore" type="text" value="20" disabled="disabled">
+            </div>
+        </div>	
+
+
+
+    </body>
+</html>
