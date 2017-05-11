@@ -70,6 +70,6 @@ function machineASous(){
     document.getElementById("monnaie").value = creditJoueur;
     document.getElementById("tentative").value = tentativeJoueur;
     document.getElementById("highscore").value = highscore;
-    storage.setItem("highscore", highscore);
+    
     
 }
